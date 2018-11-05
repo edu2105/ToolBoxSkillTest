@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingEnd="@dimen/std_padding"
+    android:paddingTop="@dimen/std_padding"
+    android:paddingBottom="@dimen/std_padding"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/thumb_carousel_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/thumb_carousel_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    tools:src ="@mipmap/ic_launcher"/>
+
+
+                <TextView
+                    android:id="@+id/thumb_carousel_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/thumb_carousel_image"
+                    android:gravity="center"
+                    style="@style/TypeTextStyle"
+                    android:textColor="@color/colorThumbTitle"
+                    android:background="@color/colorThumbTitleBackground"
+                    tools:text="La Playa"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

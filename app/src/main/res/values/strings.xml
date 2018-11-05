@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToolBoxSkillsTest</string>
+
+    <!-- Fox Basic Content Title -->
+    <string name="fox_basic_content_title">FOX Basic Content</string>
+
+    <!-- Fox Play Content Title -->
+    <string name="fox_play_content_title">FOX PLAY +</string>
+
+    <!-- Video Not Available Message -->
+    <string name="video_not_available">Not Available</string>
+
+</resources>

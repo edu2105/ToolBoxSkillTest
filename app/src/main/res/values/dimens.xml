@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Std Padding Value => 16dp -->
+    <dimen name="std_padding">16dp</dimen>
+
+    <!-- Poster Title Size => 24sp -->
+    <dimen name="poster_title_size">13sp</dimen>
+
+    <!-- Carousel Type Title Size => 32sp -->
+    <dimen name="carousel_type_title_size">26sp</dimen>
+</resources>

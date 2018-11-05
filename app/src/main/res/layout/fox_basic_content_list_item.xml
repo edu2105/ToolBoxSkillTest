@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/std_padding"
+    android:paddingTop="@dimen/std_padding"
+    android:paddingBottom="@dimen/std_padding"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <ImageView
+        android:id="@+id/poster_carousel_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/poster_carousel_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignBottom="@id/poster_carousel_image"
+        android:layout_alignStart="@id/poster_carousel_image"
+        android:layout_alignEnd="@+id/poster_carousel_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        style="@style/TypeTextStyle"
+        android:textColor="@color/colorPosterTitle"
+        tools:text="La Playa"/>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Color for Poster Title -->
+    <color name="colorPosterTitle">#ffffff</color>
+
+    <!-- Color for Thumb Title -->
+    <color name="colorThumbTitle">#000000</color>
+
+    <!-- Color for Carousel Type Tile -->
+    <color name="colorCarouselTypeTitle">#f44336</color>
+
+    <!-- Color for Thumb Title Background -->
+    <color name="colorThumbTitleBackground">#bdbdbd</color>
+
+
+</resources>
